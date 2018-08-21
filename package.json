@@ -1,0 +1,26 @@
+{
+  "name": "nereuoliveira.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NereuOliveira/nereuoliveira.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NereuOliveira/nereuoliveira.github.io/issues"
+  },
+  "homepage": "https://github.com/NereuOliveira/nereuoliveira.github.io#readme"
+}
