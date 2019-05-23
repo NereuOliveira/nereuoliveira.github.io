@@ -75,7 +75,7 @@
                         {{ about.first_name }}
                         <span class="text-primary">{{ about.last_name }}</span>
                     </h1>
-                    <div class="subheading mb-5">{{ about.address }} · {{ about.phone | phone }} ·
+                    <div class="subheading mb-5">{{ about.address }} ·
                         <a v-bind:href="'mailto:' + this.about.email">{{ about.email }}</a>
                     </div>
                     <p class="mb-5">{{ about.blurb }}</p>
