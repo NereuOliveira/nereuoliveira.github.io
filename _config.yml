@@ -1,0 +1,12 @@
+title: Nereu Oliveira
+description: Software engineer resume site
+url: https://nereu.it
+baseurl: ""
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - node_modules
+  - package-lock.json
+  - package.json
+  - gulpfile.js
