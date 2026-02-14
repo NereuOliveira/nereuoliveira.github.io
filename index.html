@@ -5,7 +5,14 @@ title: Nereu Oliveira
 <div id="app">
   {% include nav.html %}
 
-  <div role="main" class="container-fluid p-0">
+  <nav class="section-dots" aria-label="Section progress">
+    <a class="dot-link js-scroll-trigger" href="#about" aria-label="Go to About section" data-section="about" data-tooltip="About"></a>
+    <a class="dot-link js-scroll-trigger" href="#experience" aria-label="Go to Experience section" data-section="experience" data-tooltip="Experience"></a>
+    <a class="dot-link js-scroll-trigger" href="#education" aria-label="Go to Education section" data-section="education" data-tooltip="Education"></a>
+    <a class="dot-link js-scroll-trigger" href="#skills" aria-label="Go to Skills section" data-section="skills" data-tooltip="Skills"></a>
+  </nav>
+
+  <div role="main" class="main-sections">
     {% include section-about.html %}
     {% include section-experience.html %}
     {% include section-education.html %}
