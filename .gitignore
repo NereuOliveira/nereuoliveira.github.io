@@ -1,2 +1,7 @@
 node_modules/
 .vscode/
+.jekyll-cache/
+.sass-cache/
+_site/
+.bundle/
+vendor/bundle/

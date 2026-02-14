@@ -1,0 +1,25 @@
+<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+  <div class="my-auto">
+    <h1 class="mb-0">
+      {{ site.data.about.first_name }}
+      <span class="text-primary">{{ site.data.about.last_name }}</span>
+    </h1>
+    <div class="subheading mb-5">
+      {{ site.data.about.address }} ·
+      <a href="mailto:{{ site.data.about.email }}">{{ site.data.about.email }}</a>
+    </div>
+    <p class="mb-5">{{ site.data.about.blurb }}</p>
+    <ul class="list-inline list-social-icons mb-0">
+      {% for social in site.data.about.social %}
+      <li class="list-inline-item">
+        <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="{{ social.icon }}"></i>
+          </span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
