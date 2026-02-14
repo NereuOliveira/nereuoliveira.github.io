@@ -28,6 +28,8 @@ Edit the data files under `_data/`:
 - `_data/education.yml`
 - `_data/skills.yml`
 
+For the About hero blob image, `hero_image` in `_data/about.yml` works best with a transparent PNG/WebP asset.
+
 ## CI checks
 
 Pull requests targeting `main` run the build validation workflow in `.github/workflows/pr-build.yml`.
