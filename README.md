@@ -28,6 +28,13 @@ Edit the data files under `_data/`:
 - `_data/education.yml`
 - `_data/skills.yml`
 
+## CI checks
+
+Pull requests targeting `main` run the build validation workflow in `.github/workflows/pr-build.yml`.
+The required check name is `pr-build`.
+
+When branch protection/ruleset requires `pr-build`, merges into `main` are blocked until this check passes.
+
 ## Deployment
 
 Deploy runs automatically via GitHub Actions on every push to `main` using `.github/workflows/deploy-pages.yml`.
