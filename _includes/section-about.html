@@ -4,19 +4,19 @@
       <div class="row align-items-center hero-grid">
         <div class="col-lg-6">
           <div class="hero-content hero-copy">
-            <p class="hero-kicker reveal-on-load stagger-1">Software Engineer</p>
+            <p class="hero-kicker reveal-on-load stagger-1" data-i18n="about.kicker">Software Engineer</p>
             <h1 class="hero-title mb-3 reveal-on-load stagger-2">
               {{ site.data.about.first_name }}
               <span class="text-primary">{{ site.data.about.last_name }}</span>
             </h1>
             <div class="subheading hero-subtitle mb-4 reveal-on-load stagger-3">
-              {{ site.data.about.address }} ·
-              <a href="mailto:{{ site.data.about.email }}">{{ site.data.about.email }}</a>
+              <span id="aboutAddress" data-i18n="about.address">{{ site.data.about.address }}</span> &middot;
+              <a id="aboutEmail" href="mailto:{{ site.data.about.email }}">{{ site.data.about.email }}</a>
             </div>
-            <p class="hero-blurb hero-description mb-4 reveal-on-load stagger-4">{{ site.data.about.blurb }}</p>
+            <p class="hero-blurb hero-description mb-4 reveal-on-load stagger-4" id="aboutBlurb" data-i18n="about.blurb">{{ site.data.about.blurb }}</p>
             <div class="hero-actions hero-cta-row reveal-on-load stagger-5">
-              <a class="hero-button hero-button-primary js-scroll-trigger" href="#experience">View Experience</a>
-              <a class="hero-button hero-button-ghost" href="mailto:{{ site.data.about.email }}">Contact Me</a>
+              <a class="hero-button hero-button-primary js-scroll-trigger" href="#experience" data-i18n="about.cta_experience">View Experience</a>
+              <a class="hero-button hero-button-ghost" id="aboutContactCta" href="mailto:{{ site.data.about.email }}" data-i18n="about.cta_contact">Contact Me</a>
             </div>
             <ul class="list-inline list-social-icons mb-0 reveal-on-load stagger-6">
               {% for social in site.data.about.social %}
@@ -36,6 +36,7 @@
           <div class="hero-image-shell reveal-on-load stagger-4">
             <img
               class="img-fluid hero-image"
+              id="aboutHeroImage"
               src="{{ site.data.about.hero_image | relative_url }}"
               alt="Portrait of Nereu Oliveira"
               loading="eager"

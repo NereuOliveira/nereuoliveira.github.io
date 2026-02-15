@@ -1,20 +1,22 @@
 <section class="resume-section d-flex flex-column reveal-on-scroll" id="experience">
   <div class="section-scroll-body">
-  <div class="container my-auto">
-    <h2 class="mb-5">Experience</h2>
+    <div class="container my-auto">
+      <h2 class="mb-5" data-i18n="sections.experience">Experience</h2>
 
-    {% for item in site.data.experience %}
-    <div class="resume-item modern-card d-flex flex-column flex-md-row mb-4 reveal-card">
-      <div class="resume-content mr-auto">
-        <h3 class="mb-0">{{ item.position }}</h3>
-        <div class="subheading mb-3">{{ item.company }}, {{ item.country }}</div>
-        <div>{{ item.description | markdownify }}</div>
-      </div>
-      <div class="resume-date text-md-right">
-        <span class="text-primary">{{ item.start_date | date: "%b-%Y" }} - {{ item.end_date | date: "%b-%Y" }}</span>
+      <div id="experienceList">
+        {% for item in site.data.experience %}
+        <div class="resume-item modern-card d-flex flex-column flex-md-row mb-4 reveal-card">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">{{ item.position }}</h3>
+            <div class="subheading mb-3">{{ item.company }}, {{ item.country }}</div>
+            <div>{{ item.description | markdownify }}</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">{{ item.start_date | date: "%b-%Y" }} - {% if item.end_date %}{{ item.end_date | date: "%b-%Y" }}{% else %}Present{% endif %}</span>
+          </div>
+        </div>
+        {% endfor %}
       </div>
     </div>
-    {% endfor %}
-  </div>
   </div>
 </section>

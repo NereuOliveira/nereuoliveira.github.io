@@ -1,51 +1,72 @@
-- position: Software Engineer
-  company: SINDESA
+- position: Senior Software Engineer
+  company: MercadoLibre Inc
+  country: Brazil
+  start_date: 2023-12-01
+  end_date:
+  description: |-
+    - Built an alerting system for CX leadership that identified underperforming agents and generated around $200,000 in annual cost savings.
+    - Authored RFCs and ADRs to translate business requirements into aligned, scalable technical designs.
+    - Partnered with technical and project leaders to define quarterly scope, prioritize technical debt, and improve platform efficiency.
+    - Mentored junior engineers and helped raise team delivery quality through knowledge sharing.
+
+- position: Senior Full Stack Developer
+  company: LoginID Inc
+  country: Canada
+  start_date: 2020-03-01
+  end_date: 2024-02-01
+  description: |-
+    - Led SDK development to simplify backend integration and encapsulate FIDO2 native client behavior.
+    - Designed a cryptography utility with key rotation and re-encryption that improved performance by 20% and reduced costs by 15%.
+    - Spearheaded microservice consolidation with an 85% performance gain and a 38% reduction in AWS operating costs.
+    - Contributed to database layer migration for better performance and multi-region availability.
+    - Mentored junior developers to strengthen team capability and delivery consistency.
+
+- position: Software Developer
+  company: Carte Blanche Innovations Inc
+  country: Canada
+  start_date: 2018-01-01
+  end_date: 2020-02-01
+  description: |-
+    - Improved inventory integration performance by 99.6% using DBMS optimization strategies.
+    - Implemented ORM extensions for bulk upsert statements in MySQL and SQLite.
+    - Built a Docker and Docker Compose development environment that accelerated onboarding and improved setup consistency.
+
+- position: Senior Software Engineer
+  company: SINDESA Ltda
   country: Brazil
   start_date: 2013-10-01
   end_date: 2017-08-01
   description: |-
-    Led and assisted three distinct web projects for the company and its clients.
-    - Guaranteed exchange of information for monthly transactions above $150,000 USD;
-    - Developed and provided support to systems with large amount of critical data;
-    - Provided technical leadership for junior developers;
-    - Migrated the main company projects to Azure servers for scalability;
-    - Created new interfaces to facilitate the user interaction with legacy systems;
-    - Created a software solution to resolve a communication deficiency of 25,000 volunteers;
-    - Assured the receipt of votes from 4,000 ballot boxes in 1,191 cities on the day of the plebiscite;
+    - Led a home page and dashboard redesign that reduced load time from 8 seconds to 2 seconds.
+    - Helped implement a new ERP workflow that cut bank reconciliation effort by 50%.
+    - Created an import tool for CSV/XLS loan reports to identify payroll discrepancy issues faster.
 
 - position: Software Developer
-  company: Benner Systems
+  company: Benner Systems S/A
   country: Brazil
   start_date: 2013-01-01
   end_date: 2013-09-01
   description: |-
-    Provided maintenance and support for the company's main product which was an ERP system. Worked as part of the legal and court demands team interacting with system and business analysts.
-    - Participated in monthly projects to adapt the system to legal and court demands;
-    - Created and maintained reports using Visual Basic as report engine;
-    - Performed code reviews on Pascal, C# and Visual Basic code from others software developers to improve quality;
-    - Developed and tested new system functionalities using C#, .NET and the Entity Framework;
-    - Participated in the process of migrating legacy code written in Pascal to C#;
+    - Delivered monthly adaptations to keep ERP workflows aligned with legal and court requirements.
+    - Developed and tested new features with C#, .NET, and Entity Framework.
+    - Supported migration of legacy Pascal code to modern C# implementations.
 
 - position: Software Developer
-  company: Evolutecnet
+  company: Evolutecnet Ltda
   country: Brazil
   start_date: 2011-10-01
   end_date: 2012-12-01
   description: |-
-    Developed a new product focused on reducing clients' rework and provided an easier way of collecting data from the container yard.
-    - Programmed a windows mobile application for data collector devices using C# and consuming a PHP RESTful API;
-    - Maintained several of the company's desktop modules using Pascal (Delphi);
-    - Provided user support;
-    - Created reports using FastReport and QuickReport tools;
+    - Built a Windows Mobile data collection app in C# integrated with a PHP REST API.
+    - Maintained desktop modules in Pascal and provided direct user support.
+    - Produced operational reports with FastReport and QuickReport.
 
 - position: Software Developer
-  company: Ravex
+  company: Ravex Ltda
   country: Brazil
   start_date: 2010-11-01
   end_date: 2011-09-01
   description: |-
-    Developed systems with the focus on innovation in the areas of mobile, embedded system and Web Services. Also participated in phases before the implementation like system analysis definition, technology researching and prototyping.
-    - Created Web Services based on the SOAP protocol using C#;
-    - Integrated SQL Server databases via Windows Service applications;
-    - Developed mobile applications using Java ME (J2ME) and the Android platform;
-    - Implemented embedded solutions for PIC microcontrollers using mikroC for PIC;
+    - Developed SOAP web services in C# to improve interoperability between systems.
+    - Implemented Windows Services to integrate SQL Server-based data flows.
+    - Built mobile solutions with Java ME and Android and delivered embedded components for PIC microcontrollers.

@@ -5,14 +5,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto align-items-lg-center">
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about" data-i18n="nav.about">About</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience" data-i18n="nav.experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education" data-i18n="nav.education">Education</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li class="nav-item nav-lang-item dropdown">
+          <button class="lang-toggle-btn dropdown-toggle" id="languageToggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Select language">
+            <span class="lang-toggle-label" data-i18n="nav.language">Language</span>
+            <span class="lang-current" id="currentLangLabel">EN</span>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right lang-menu" aria-labelledby="languageToggle">
+            <button class="dropdown-item lang-option" type="button" data-lang="en">English</button>
+            <button class="dropdown-item lang-option" type="button" data-lang="pt-br">Portugues (Brasil)</button>
+            <button class="dropdown-item lang-option" type="button" data-lang="es">Espanol</button>
+          </div>
+        </li>
         <li class="nav-item nav-theme-item">
           <button class="theme-toggle-btn" id="themeToggle" type="button" aria-pressed="false" aria-label="Switch to dark mode" title="Switch to dark mode">
             <span class="theme-toggle-icon" aria-hidden="true"><i class="fa fa-moon-o"></i></span>
-            <span class="theme-toggle-label">Theme</span>
+            <span class="theme-toggle-label" data-i18n="nav.theme">Theme</span>
           </button>
         </li>
       </ul>
