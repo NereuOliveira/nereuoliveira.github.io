@@ -1,22 +1,17 @@
 <section class="resume-section d-flex flex-column reveal-on-scroll" id="skills">
   <div class="section-scroll-body">
-  <div class="container my-auto">
-    <h2 class="mb-5">Skills</h2>
+    <div class="container my-auto">
+      <h2 class="mb-5" data-i18n="sections.skills">Skills</h2>
 
-    <div class="row">
-      {% for section in site.data.skills %}
-      <div class="col-md-6 mb-4 mb-md-0">
-        <div class="modern-card skill-group reveal-card">
-          <div class="subheading mb-3">{{ section.group }}</div>
-          <ul class="fa-ul mb-0">
-            {% for item in section.skills %}
-            <li><i class="{{ item.icon }}"></i> {{ item.skill | replace: '|', '  •  ' }}</li>
-            {% endfor %}
-          </ul>
-        </div>
+      <div id="skillsControls" class="skills-toolbar modern-card reveal-card">
+        <div class="skills-filter-group" id="skillsTierFilters" aria-label="Tier filters"></div>
       </div>
-      {% endfor %}
+
+      <div id="skillsGrid" class="skills-chip-grid mt-4"></div>
+      <p id="skillsEmptyState" class="skills-empty-state mt-3" hidden data-i18n="skills_ui.no_results">
+        No skills match your filters.
+      </p>
+      <div id="skillsList" class="sr-only" aria-hidden="true"></div>
     </div>
-  </div>
   </div>
 </section>
