@@ -1,25 +1,52 @@
 <section class="resume-section d-flex flex-column reveal-on-scroll" id="education">
   <div class="section-scroll-body">
     <div class="container my-auto">
-      <h2 class="mb-5">Education</h2>
+      <h2 class="mb-5" data-i18n="sections.education">Education</h2>
 
-      {% for item in site.data.education %}
-      <div class="resume-item modern-card d-flex flex-column flex-md-row mb-4 reveal-card">
-        <div class="resume-content mr-auto">
-          <h3 class="mb-0">{{ item.course }}</h3>
-          <div class="subheading mb-3">{{ item.institution }}</div>
-          {% for description in item.descriptions %}
-          <div>{{ description }}</div>
-          {% endfor %}
-          {% if item.gpa %}
-          <div>GPA: {{ item.gpa }}</div>
-          {% endif %}
-        </div>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">{{ item.start_date | date: "%b-%Y" }} - {{ item.end_date | date: "%b-%Y" }}</span>
-        </div>
+      <div
+        id="educationList"
+        class="education-timeline"
+        data-i18n-aria-label="education_ui.timeline_aria_label"
+        aria-label="Education timeline"
+      >
+        {% for item in site.data.education %}
+        <article class="education-timeline-item reveal-card">
+          <div class="education-rail" aria-hidden="true">
+            <span class="education-marker-dot"></span>
+            <div class="education-rail-date">{{ item.start_date | date: "%Y" }}-{{ item.end_date | date: "%Y" }}</div>
+          </div>
+          <div class="education-card">
+            <div class="education-card-header">
+              {% if item.institution_logo %}
+              <div class="education-logo-wrap">
+                <img class="education-logo education-logo--light" src="{{ item.institution_logo | relative_url }}" alt="{{ item.institution }} logo">
+                {% if item.institution_logo_dark %}
+                <img class="education-logo education-logo--dark" src="{{ item.institution_logo_dark | relative_url }}" alt="{{ item.institution }} logo">
+                {% endif %}
+              </div>
+              {% endif %}
+              <div class="education-title-wrap">
+                <h3 class="mb-0">{{ item.course }}</h3>
+                <div class="subheading mb-0">{{ item.institution }}{% if item.country %}, {{ item.country }}{% endif %}</div>
+              </div>
+            </div>
+            {% if item.program_blurb %}
+            <p class="education-program-blurb">{{ item.program_blurb }}</p>
+            {% endif %}
+            {% if item.credential_tag or item.equivalency_tag %}
+            <div class="education-badges" data-i18n-aria-label="education_ui.badges_label" aria-label="Education badges">
+              {% if item.credential_tag %}
+              <span class="education-badge">{{ item.credential_tag }}</span>
+              {% endif %}
+              {% if item.equivalency_tag %}
+              <span class="education-badge education-badge-alt">{{ item.equivalency_tag }}</span>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </article>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
 </section>

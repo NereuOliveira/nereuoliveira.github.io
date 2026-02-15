@@ -1,18 +1,19 @@
 - course: MBA in Project Management
-  institution: UNIVALI -  University of Vale do Itajaí
+  institution: Universidade do Vale do Itajai (UNIVALI)
   country: Brazil
-  gpa: "4.00"
+  program_blurb: This MBA developed strong capability in project leadership, governance, and execution across complex initiatives. The program emphasized planning, scope and risk management, stakeholder communication, and delivery discipline. It strengthened the ability to align business goals with practical implementation and measurable outcomes.
   start_date: 2014-05-01
   end_date: 2015-11-27
   descriptions:
-    - Credential Assessed by World Education Services (WES)
-    - "Canadian Equivalency: Postgraduate certificate (one year)"
+    - Credential assessed by World Education Services (WES).
+    - "Canadian Equivalency: Postgraduate certificate (one year)."
 
-- course: BSc. in Computer Science
-  institution: UNIVALI -  University of Vale do Itajaí
+- course: Bachelor's Degree in Computer Science
+  institution: Universidade do Vale do Itajai (UNIVALI)
   country: Brazil
+  program_blurb: This degree provided a comprehensive foundation in computer science, including software engineering principles, algorithms, operating systems, and data structures. It also covered database design, architecture fundamentals, and practical software development methods. The training built rigorous analytical thinking and a strong base for designing and delivering reliable software systems.
   start_date: 2009-03-15
   end_date: 2013-11-27
   descriptions:
-    - Credential Assessed by World Education Services (WES)
-    - "Canadian Equivalency: Postgraduate certificate (four years)"
+    - Credential assessed by World Education Services (WES).
+    - "Canadian Equivalency: Bachelor's degree (four years)."
