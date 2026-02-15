@@ -37,17 +37,26 @@
 
   <script>
     (function () {
-      var key = 'preferred-theme';
-      var saved;
+      var themeKey = 'preferred-theme';
+      var languageKey = 'preferred-language';
+      var savedTheme;
+      var savedLanguage;
       try {
-        saved = localStorage.getItem(key);
+        savedTheme = localStorage.getItem(themeKey);
+        savedLanguage = localStorage.getItem(languageKey);
       } catch (error) {
-        saved = null;
+        savedTheme = null;
+        savedLanguage = null;
       }
-      var theme = saved === 'light' || saved === 'dark'
-        ? saved
+      var theme = savedTheme === 'light' || savedTheme === 'dark'
+        ? savedTheme
         : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      var browserLanguage = (navigator.language || 'en').toLowerCase();
+      var language = savedLanguage === 'pt-br' || savedLanguage === 'es' || savedLanguage === 'en'
+        ? savedLanguage
+        : (browserLanguage.indexOf('pt') === 0 ? 'pt-br' : (browserLanguage.indexOf('es') === 0 ? 'es' : 'en'));
       document.documentElement.setAttribute('data-theme', theme);
+      document.documentElement.setAttribute('lang', language);
     })();
   </script>
 
@@ -59,6 +68,9 @@
 </head>
 <body id="page-top">
   {{ content }}
+  <script>
+    window.__I18N__ = {{ site.data.i18n | jsonify }};
+  </script>
 
   <script src="{{ '/assets/vendor/jquery/jquery.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>

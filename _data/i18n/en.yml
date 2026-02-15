@@ -1,0 +1,280 @@
+meta:
+  locale: en-CA
+nav:
+  about: About
+  experience: Experience
+  education: Education
+  skills: Skills
+  theme: Theme
+  language: Language
+sections:
+  about: About
+  experience: Experience
+  education: Education
+  skills: Skills
+about:
+  kicker: Software Engineer
+  address: Brazil, Santa Catarina
+  blurb: >-
+    Senior software engineer with strong experience in FinTech, distributed
+    systems, and event-driven architectures. I focus on building reliable,
+    scalable products with Golang and TypeScript while driving measurable gains
+    in performance and cloud cost efficiency. I also mentor engineers, write
+    clear technical documentation, and help teams turn business needs into
+    maintainable system design.
+  cta_experience: View Experience
+  cta_contact: Contact Me
+  image_alt: Portrait of Nereu Oliveira
+common:
+  present: Present
+  go_to_section: Go to {section} section
+  switch_to_light: Switch to light mode
+  switch_to_dark: Switch to dark mode
+  section_progress: Section progress
+experience:
+  - position: Senior Software Engineer
+    company: MercadoLibre Inc
+    country: Brazil
+    start_date: 2023-12-01
+    end_date:
+    highlights:
+      - Built an alerting system for CX leadership that identified underperforming agents and generated around $200,000 in annual cost savings.
+      - Authored RFCs and ADRs to translate business requirements into aligned, scalable technical designs.
+      - Partnered with technical and project leaders to define quarterly scope, prioritize technical debt, and improve platform efficiency.
+      - Mentored junior engineers and helped raise team delivery quality through knowledge sharing.
+  - position: Senior Full Stack Developer
+    company: LoginID Inc
+    country: Canada
+    start_date: 2020-03-01
+    end_date: 2024-02-01
+    highlights:
+      - Led SDK development to simplify backend integration and encapsulate FIDO2 native client behavior.
+      - Designed a cryptography utility with key rotation and re-encryption that improved performance by 20% and reduced costs by 15%.
+      - Spearheaded microservice consolidation with an 85% performance gain and a 38% reduction in AWS operating costs.
+      - Contributed to database layer migration for better performance and multi-region availability.
+      - Mentored junior developers to strengthen team capability and delivery consistency.
+  - position: Software Developer
+    company: Carte Blanche Innovations Inc
+    country: Canada
+    start_date: 2018-01-01
+    end_date: 2020-02-01
+    highlights:
+      - Improved inventory integration performance by 99.6% using DBMS optimization strategies.
+      - Implemented ORM extensions for bulk upsert statements in MySQL and SQLite.
+      - Built a Docker and Docker Compose development environment that accelerated onboarding and improved setup consistency.
+  - position: Senior Software Engineer
+    company: SINDESA Ltda
+    country: Brazil
+    start_date: 2013-10-01
+    end_date: 2017-08-01
+    highlights:
+      - Led a home page and dashboard redesign that reduced load time from 8 seconds to 2 seconds.
+      - Helped implement a new ERP workflow that cut bank reconciliation effort by 50%.
+      - Created an import tool for CSV/XLS loan reports to identify payroll discrepancy issues faster.
+  - position: Software Developer
+    company: Benner Systems S/A
+    country: Brazil
+    start_date: 2013-01-01
+    end_date: 2013-09-01
+    highlights:
+      - Delivered monthly adaptations to keep ERP workflows aligned with legal and court requirements.
+      - Developed and tested new features with C#, .NET, and Entity Framework.
+      - Supported migration of legacy Pascal code to modern C# implementations.
+  - position: Software Developer
+    company: Evolutecnet Ltda
+    country: Brazil
+    start_date: 2011-10-01
+    end_date: 2012-12-01
+    highlights:
+      - Built a Windows Mobile data collection app in C# integrated with a PHP REST API.
+      - Maintained desktop modules in Pascal and provided direct user support.
+      - Produced operational reports with FastReport and QuickReport.
+  - position: Software Developer
+    company: Ravex Ltda
+    country: Brazil
+    start_date: 2010-11-01
+    end_date: 2011-09-01
+    highlights:
+      - Developed SOAP web services in C# to improve interoperability between systems.
+      - Implemented Windows Services to integrate SQL Server-based data flows.
+      - Built mobile solutions with Java ME and Android and delivered embedded components for PIC microcontrollers.
+education:
+  - course: MBA in Project Management
+    institution: Universidade do Vale do Itajai (UNIVALI)
+    country: Brazil
+    institution_logo: assets/img/logos/univali_light.png
+    institution_logo_dark: assets/img/logos/univali_dark.png
+    credential_tag: MBA
+    program_blurb: This MBA developed strong capability in project leadership, governance, and execution across complex initiatives. The program emphasized planning, scope and risk management, stakeholder communication, and delivery discipline. It strengthened the ability to align business goals with practical implementation and measurable outcomes.
+    equivalency_tag: 'WES: Postgraduate certificate (1 year)'
+    start_date: 2014-05-01
+    end_date: 2015-11-27
+    descriptions:
+      - Credential assessed by World Education Services (WES).
+  - course: Bachelor's Degree in Computer Science
+    institution: Universidade do Vale do Itajai (UNIVALI)
+    country: Brazil
+    institution_logo: assets/img/logos/univali_light.png
+    institution_logo_dark: assets/img/logos/univali_dark.png
+    credential_tag: Bachelor
+    program_blurb: This degree provided a comprehensive foundation in computer science, including software engineering principles, algorithms, operating systems, and data structures. It also covered database design, architecture fundamentals, and practical software development methods. The training built rigorous analytical thinking and a strong base for designing and delivering reliable software systems.
+    equivalency_tag: "WES: Bachelor's degree (4 years)"
+    start_date: 2009-03-15
+    end_date: 2013-11-27
+    descriptions:
+      - Credential assessed by World Education Services (WES).
+education_ui:
+  timeline_aria_label: Education timeline
+  logo_alt_template: Logo of {institution}
+  badges_label: Education badges
+skills_ui:
+  filter_all: All
+  filter_tier: Tier filters
+  no_results: No skills match your filters.
+  core_badge: Core skill
+  tiers:
+    core: Core
+    advanced: Advanced
+    working: Working
+skills:
+  - id: software-development
+    group: Software Development
+    skills:
+      - name: Golang
+        icon: fa fa-code
+        tier: core
+      - name: TypeScript
+        icon: fa fa-code
+        tier: core
+      - name: JavaScript (ES6)
+        icon: fa fa-code
+        tier: core
+      - name: React
+        icon: fa fa-code
+        tier: advanced
+      - name: Vue.js
+        icon: fa fa-code
+        tier: advanced
+      - name: Node.js
+        icon: fa fa-code
+        tier: core
+      - name: Express
+        icon: fa fa-code
+        tier: advanced
+      - name: SQL
+        icon: fa fa-database
+        tier: core
+      - name: PostgreSQL
+        icon: fa fa-database
+        tier: advanced
+      - name: CockroachDB
+        icon: fa fa-database
+        tier: advanced
+      - name: MySQL
+        icon: fa fa-database
+        tier: advanced
+      - name: SQLite
+        icon: fa fa-database
+        tier: working
+      - name: C#
+        icon: fa fa-code
+        tier: advanced
+      - name: .NET Core
+        icon: fa fa-code
+        tier: advanced
+      - name: PHP
+        icon: fa fa-code
+        tier: working
+      - name: HTML
+        icon: fa fa-code
+        tier: advanced
+      - name: CSS
+        icon: fa fa-code
+        tier: advanced
+      - name: Docker
+        icon: fa fa-cube
+        tier: core
+      - name: Bash
+        icon: fa fa-terminal
+        tier: advanced
+      - name: Zsh
+        icon: fa fa-terminal
+        tier: working
+      - name: Git
+        icon: fa fa-code-fork
+        tier: core
+  - id: cloud-infrastructure
+    group: Cloud & Infrastructure
+    skills:
+      - name: AWS EC2
+        icon: fa fa-cloud
+        tier: advanced
+      - name: AWS S3
+        icon: fa fa-cloud
+        tier: advanced
+      - name: AWS Route53
+        icon: fa fa-cloud
+        tier: working
+      - name: AWS IAM
+        icon: fa fa-cloud
+        tier: advanced
+      - name: AWS CloudWatch
+        icon: fa fa-cloud
+        tier: advanced
+      - name: Load Balancers
+        icon: fa fa-server
+        tier: advanced
+      - name: Auto Scaling Groups
+        icon: fa fa-server
+        tier: advanced
+      - name: Security Groups
+        icon: fa fa-shield
+        tier: advanced
+      - name: Routing Tables
+        icon: fa fa-random
+        tier: working
+      - name: AWS Console
+        icon: fa fa-laptop
+        tier: advanced
+      - name: CLI
+        icon: fa fa-terminal
+        tier: core
+      - name: API Operations
+        icon: fa fa-exchange
+        tier: advanced
+      - name: Production Docker Deployments
+        icon: fa fa-cube
+        tier: core
+  - id: engineering-practices
+    group: Engineering Practices
+    skills:
+      - name: Automated Testing
+        icon: fa fa-check-square-o
+        tier: core
+      - name: CI/CD
+        icon: fa fa-refresh
+        tier: core
+      - name: System Administration
+        icon: fa fa-cogs
+        tier: advanced
+      - name: Cost Optimization
+        icon: fa fa-line-chart
+        tier: core
+      - name: Distributed Systems
+        icon: fa fa-sitemap
+        tier: core
+      - name: Event-Driven Architecture
+        icon: fa fa-sitemap
+        tier: core
+      - name: System Design Documentation
+        icon: fa fa-file-text-o
+        tier: advanced
+      - name: Technical Mentorship
+        icon: fa fa-users
+        tier: core
+      - name: Multi-Platform Team Leadership
+        icon: fa fa-users
+        tier: advanced
+      - name: Cross-Functional Collaboration
+        icon: fa fa-users
+        tier: core

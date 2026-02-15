@@ -1,15 +1,16 @@
 first_name: Nereu
 last_name: Oliveira
-address: Toronto, ON
-phone: "6475703172"
+address: Brazil, Santa Catarina
+phone: "+55 (47) 98830-1282"
 email: me@nereu.it
 hero_image: /assets/img/picture.png
 blurb: >-
-  I've been working as a software engineer for the past 6 years and I love to
-  share knowledge. I'm passionate about clean code, software development and
-  eager to learn about cutting-edge technologies. Outside the programming world,
-  I like to play board games, video games and puzzles. When I'm not at home,
-  you can find me exploring new places and foods.
+  Senior software engineer with strong experience in FinTech, distributed
+  systems, and event-driven architectures. I focus on building reliable,
+  scalable products with Golang and TypeScript while driving measurable gains in
+  performance and cloud cost efficiency. I also mentor engineers, write clear
+  technical documentation, and help teams turn business needs into maintainable
+  system design.
 social:
   - name: GitHub
     icon: fa fa-github fa-stack-1x fa-inverse

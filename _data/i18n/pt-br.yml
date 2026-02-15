@@ -1,0 +1,280 @@
+meta:
+  locale: pt-BR
+nav:
+  about: Sobre
+  experience: Experiência
+  education: Educação
+  skills: Habilidades
+  theme: Tema
+  language: Idioma
+sections:
+  about: Sobre
+  experience: Experiência
+  education: Educação
+  skills: Habilidades
+about:
+  kicker: Engenheiro de Software
+  address: Brasil, Santa Catarina
+  blurb: >-
+    Engenheiro de software sênior com forte experiência em FinTech, sistemas
+    distribuídos e arquiteturas orientadas a eventos. Foco em construir produtos
+    confiáveis e escaláveis com Golang e TypeScript, entregando ganhos mensuráveis
+    de performance e eficiência de custos em nuvem. Também atuo na mentoria de
+    engenheiros, na documentação técnica e na tradução de necessidades de negócio
+    em designs de sistema sustentáveis.
+  cta_experience: Ver Experiência
+  cta_contact: Fale Comigo
+  image_alt: Retrato de Nereu Oliveira
+common:
+  present: Atual
+  go_to_section: Ir para a seção {section}
+  switch_to_light: Mudar para modo claro
+  switch_to_dark: Mudar para modo escuro
+  section_progress: Progresso das seções
+experience:
+  - position: Engenheiro de Software Sênior
+    company: MercadoLibre Inc
+    country: Brasil
+    start_date: 2023-12-01
+    end_date:
+    highlights:
+      - Construí um sistema de alertas para lideranças de CX que identificou agentes com baixa performance e gerou cerca de US$ 200 mil em economia anual.
+      - Elaborei RFCs e ADRs para transformar requisitos de negócio em designs técnicos alinhados e escaláveis.
+      - Atuei com lideranças técnicas e de projeto na definição do escopo trimestral, priorização de débito técnico e melhoria de eficiência da plataforma.
+      - Mentorei desenvolvedores juniores, elevando qualidade de entrega e colaboração do time.
+  - position: Desenvolvedor Full Stack Sênior
+    company: LoginID Inc
+    country: Canadá
+    start_date: 2020-03-01
+    end_date: 2024-02-01
+    highlights:
+      - Liderei o desenvolvimento de SDKs para simplificar integrações backend e encapsular comportamentos nativos de FIDO2 no cliente.
+      - Projetei uma biblioteca de criptografia com rotação e recriptografia de chaves, melhorando performance em 20% e reduzindo custos em 15%.
+      - Liderei a consolidação de microsserviços, com ganho de 85% em performance e redução de 38% nos custos operacionais de AWS.
+      - Contribuí na migração da camada de banco de dados para melhorar desempenho e disponibilidade multi-região.
+      - Mentorei desenvolvedores juniores para fortalecer consistência técnica e entrega do time.
+  - position: Desenvolvedor de Software
+    company: Carte Blanche Innovations Inc
+    country: Canadá
+    start_date: 2018-01-01
+    end_date: 2020-02-01
+    highlights:
+      - Melhorei em 99,6% a performance da integração de inventário com estratégias de otimização de DBMS.
+      - Implementei extensões de ORM para operações de bulk upsert em MySQL e SQLite.
+      - Estruturei ambiente de desenvolvimento com Docker e Docker Compose, acelerando onboarding e padronizando setup.
+  - position: Engenheiro de Software Sênior
+    company: SINDESA Ltda
+    country: Brasil
+    start_date: 2013-10-01
+    end_date: 2017-08-01
+    highlights:
+      - Liderei o redesenho da home e dashboard, reduzindo tempo de carregamento de 8 para 2 segundos.
+      - Apoiei a implantação de novo fluxo ERP, reduzindo em 50% o tempo de conciliação bancária.
+      - Criei ferramenta de importação de arquivos CSV/XLS para identificar divergências de folha de pagamento com mais rapidez.
+  - position: Desenvolvedor de Software
+    company: Benner Systems S/A
+    country: Brasil
+    start_date: 2013-01-01
+    end_date: 2013-09-01
+    highlights:
+      - Entreguei adaptações mensais para manter fluxos ERP alinhados a exigências legais e judiciais.
+      - Desenvolvi e testei novas funcionalidades com C#, .NET e Entity Framework.
+      - Apoiei a migração de código legado em Pascal para implementações modernas em C#.
+  - position: Desenvolvedor de Software
+    company: Evolutecnet Ltda
+    country: Brasil
+    start_date: 2011-10-01
+    end_date: 2012-12-01
+    highlights:
+      - Desenvolvi aplicativo de coleta de dados para Windows Mobile em C#, integrado a API REST em PHP.
+      - Mantive módulos desktop em Pascal e ofereci suporte direto a usuários.
+      - Produzi relatórios operacionais com FastReport e QuickReport.
+  - position: Desenvolvedor de Software
+    company: Ravex Ltda
+    country: Brasil
+    start_date: 2010-11-01
+    end_date: 2011-09-01
+    highlights:
+      - Desenvolvi web services SOAP em C# para melhorar interoperabilidade entre sistemas.
+      - Implementei Windows Services para integrar fluxos de dados com SQL Server.
+      - Construí soluções mobile com Java ME e Android, além de componentes embarcados para microcontroladores PIC.
+education:
+  - course: MBA em Gestão de Projetos
+    institution: Universidade do Vale do Itajaí (UNIVALI)
+    country: Brasil
+    institution_logo: assets/img/logos/univali_light.png
+    institution_logo_dark: assets/img/logos/univali_dark.png
+    credential_tag: MBA
+    program_blurb: Este MBA fortaleceu competências em liderança de projetos, governança e execução de iniciativas complexas. O programa teve foco em planejamento, gestão de escopo e riscos, comunicação com stakeholders e disciplina de entrega. A formação ampliou a capacidade de conectar objetivos de negócio com implementação prática e resultados mensuráveis.
+    equivalency_tag: 'WES: Certificado de pós-graduação (1 ano)'
+    start_date: 2014-05-01
+    end_date: 2015-11-27
+    descriptions:
+      - Credencial avaliada pela World Education Services (WES).
+  - course: Bacharelado em Ciência da Computação
+    institution: Universidade do Vale do Itajaí (UNIVALI)
+    country: Brasil
+    institution_logo: assets/img/logos/univali_light.png
+    institution_logo_dark: assets/img/logos/univali_dark.png
+    credential_tag: Bacharelado
+    program_blurb: Este curso ofereceu uma base ampla em ciência da computação, com foco em engenharia de software, algoritmos, estruturas de dados e sistemas operacionais. Também abordou modelagem de bancos de dados, fundamentos de arquitetura e práticas de desenvolvimento de software. A formação consolidou raciocínio analítico e uma base técnica sólida para projetar e entregar sistemas confiáveis.
+    equivalency_tag: 'WES: Bacharelado (4 anos)'
+    start_date: 2009-03-15
+    end_date: 2013-11-27
+    descriptions:
+      - Credencial avaliada pela World Education Services (WES).
+education_ui:
+  timeline_aria_label: Linha do tempo da educação
+  logo_alt_template: Logo de {institution}
+  badges_label: Selos educacionais
+skills_ui:
+  filter_all: Todas
+  filter_tier: Filtro por nível
+  no_results: Nenhuma habilidade corresponde aos filtros.
+  core_badge: Habilidade principal
+  tiers:
+    core: Principal
+    advanced: Avançado
+    working: Em prática
+skills:
+  - id: desenvolvimento-software
+    group: Desenvolvimento de Software
+    skills:
+      - name: Golang
+        icon: fa fa-code
+        tier: core
+      - name: TypeScript
+        icon: fa fa-code
+        tier: core
+      - name: JavaScript (ES6)
+        icon: fa fa-code
+        tier: core
+      - name: React
+        icon: fa fa-code
+        tier: advanced
+      - name: Vue.js
+        icon: fa fa-code
+        tier: advanced
+      - name: Node.js
+        icon: fa fa-code
+        tier: core
+      - name: Express
+        icon: fa fa-code
+        tier: advanced
+      - name: SQL
+        icon: fa fa-database
+        tier: core
+      - name: PostgreSQL
+        icon: fa fa-database
+        tier: advanced
+      - name: CockroachDB
+        icon: fa fa-database
+        tier: advanced
+      - name: MySQL
+        icon: fa fa-database
+        tier: advanced
+      - name: SQLite
+        icon: fa fa-database
+        tier: working
+      - name: C#
+        icon: fa fa-code
+        tier: advanced
+      - name: .NET Core
+        icon: fa fa-code
+        tier: advanced
+      - name: PHP
+        icon: fa fa-code
+        tier: working
+      - name: HTML
+        icon: fa fa-code
+        tier: advanced
+      - name: CSS
+        icon: fa fa-code
+        tier: advanced
+      - name: Docker
+        icon: fa fa-cube
+        tier: core
+      - name: Bash
+        icon: fa fa-terminal
+        tier: advanced
+      - name: Zsh
+        icon: fa fa-terminal
+        tier: working
+      - name: Git
+        icon: fa fa-code-fork
+        tier: core
+  - id: nuvem-infraestrutura
+    group: Nuvem e Infraestrutura
+    skills:
+      - name: AWS EC2
+        icon: fa fa-cloud
+        tier: advanced
+      - name: AWS S3
+        icon: fa fa-cloud
+        tier: advanced
+      - name: AWS Route53
+        icon: fa fa-cloud
+        tier: working
+      - name: AWS IAM
+        icon: fa fa-cloud
+        tier: advanced
+      - name: AWS CloudWatch
+        icon: fa fa-cloud
+        tier: advanced
+      - name: Load Balancers
+        icon: fa fa-server
+        tier: advanced
+      - name: Auto Scaling Groups
+        icon: fa fa-server
+        tier: advanced
+      - name: Security Groups
+        icon: fa fa-shield
+        tier: advanced
+      - name: Routing Tables
+        icon: fa fa-random
+        tier: working
+      - name: AWS Console
+        icon: fa fa-laptop
+        tier: advanced
+      - name: CLI
+        icon: fa fa-terminal
+        tier: core
+      - name: Operações por API
+        icon: fa fa-exchange
+        tier: advanced
+      - name: Deploys Docker em produção
+        icon: fa fa-cube
+        tier: core
+  - id: praticas-engenharia
+    group: Práticas de Engenharia
+    skills:
+      - name: Testes Automatizados
+        icon: fa fa-check-square-o
+        tier: core
+      - name: CI/CD
+        icon: fa fa-refresh
+        tier: core
+      - name: Administração de Sistemas
+        icon: fa fa-cogs
+        tier: advanced
+      - name: Otimização de Custos
+        icon: fa fa-line-chart
+        tier: core
+      - name: Sistemas Distribuídos
+        icon: fa fa-sitemap
+        tier: core
+      - name: Arquitetura Orientada a Eventos
+        icon: fa fa-sitemap
+        tier: core
+      - name: Documentação de Design de Sistemas
+        icon: fa fa-file-text-o
+        tier: advanced
+      - name: Mentoria Técnica
+        icon: fa fa-users
+        tier: core
+      - name: Liderança de Times Multi-Plataforma
+        icon: fa fa-users
+        tier: advanced
+      - name: Colaboração Interfuncional
+        icon: fa fa-users
+        tier: core
